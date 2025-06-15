@@ -1,0 +1,12 @@
+
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+/* Exemple de style personnalisé global */
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #2c3e50;
+}

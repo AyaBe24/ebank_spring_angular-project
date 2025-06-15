@@ -1,0 +1,86 @@
+.navbar {
+  background: linear-gradient(90deg, #2563eb, #1e40af);
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.6);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.4s ease;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.07em;
+  color: #e0e7ff !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #bfdbfe !important;
+}
+
+.nav-link {
+  color: #dbeafe !important;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #93c5fd !important;
+  text-decoration: underline;
+}
+
+.navbar-nav .dropdown-menu {
+  background: #1e40af;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(30, 64, 175, 0.7);
+  border: none;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+  color: #dbeafe;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 8px;
+}
+
+.navbar-toggler {
+  border-color: #93c5fd;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba%28255, 255, 255, 0.85%29' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.form-control {
+  border-radius: 20px;
+  border: 1px solid #93c5fd;
+  background-color: #f0f9ff;
+  color: #1e40af;
+  transition: box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 8px #2563ebaa;
+  border-color: #2563eb;
+  background-color: #fff;
+}
+
+.btn-outline-success {
+  border-radius: 20px;
+  font-weight: 600;
+  color: #dbeafe;
+  border-color: #2563eb;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-success:hover {
+  background-color: #2563eb;
+  color: white;
+  border-color: #1e40af;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.6);
+}
