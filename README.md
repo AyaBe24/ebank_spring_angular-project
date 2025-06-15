@@ -116,12 +116,16 @@ cd ebankingweb
 npm install
 ng serve
 
+---
+
+
 ##🧪 Testing & Development Tips
 Use the H2 database during development for easier testing
 
 Switch to MySQL/PostgreSQL by updating application.properties
 
 Use Angular's development server for hot reloads
+---
 
 ##📁 Project Insights
 This project is a hands-on exercise in:
@@ -135,11 +139,11 @@ Structuring clean backend code using DTOs and service layers
 Designing responsive and interactive Angular components
 
 It can serve as a base template for more advanced fintech solutions or academic projects.
-
+---
 ##🤝 Contribution & License
 This is an educational and open-source project.
 Feel free to contribute via pull requests.
-
+---
 ##**📸 Screenshots
 ![image](https://github.com/user-attachments/assets/598aa03d-c032-4168-b53b-a7deea1a2bee)
 ![image](https://github.com/user-attachments/assets/95ddf2da-3da2-4c66-84f9-459700ff2331)
